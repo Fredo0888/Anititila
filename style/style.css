@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Albertus Nova';
+    src: url('../fonts/AlbertusNova.eot');
+    src: url('../fonts/AlbertusNova.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AlbertusNova.woff2') format('woff2'),
+    url('../fonts/AlbertusNova.woff') format('woff'),
+    url('../fonts/AlbertusNova.ttf') format('truetype'),
+    url('../fonts/AlbertusNova.svg#AlbertusNova') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url("../images/Background_1.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav li{
+    padding-top: 40px;
+    margin-right: 9px;
+    list-style: none;
+}
+header nav li a{
+    font-family: 'Albertus Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header li{
+    padding-top: 40px;
+    margin: 0 14px;
+    list-style: none;
+}
+section .container{
+    max-width: 670px;
+    margin: auto;
+    padding-top: 60px;
+
+}
+.downpage{
+    text-align: center;
+}
